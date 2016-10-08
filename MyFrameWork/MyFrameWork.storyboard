@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--My Framework View Controller-->
+        <scene sceneID="aH8-XA-WXn">
+            <objects>
+                <viewController storyboardIdentifier="MyFrameworkViewController" id="DmD-Jr-a3d" customClass="MyFrameworkViewController" customModule="MyFrameWork" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Kvv-WX-3Ki"/>
+                        <viewControllerLayoutGuide type="bottom" id="fsU-bi-ftw"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tIB-fN-j1d">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="hb0-1N-XmI">
+                                <rect key="frame" x="292" y="310" width="60" height="30"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Th1-N3-3o9">
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="30"/>
+                                        <state key="normal" title="点我关闭"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="Th1-N3-3o9" firstAttribute="centerX" secondItem="hb0-1N-XmI" secondAttribute="centerX" id="Wiz-kw-0b3"/>
+                                    <constraint firstItem="Th1-N3-3o9" firstAttribute="centerY" secondItem="hb0-1N-XmI" secondAttribute="centerY" id="wS2-Uf-C5a"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="hb0-1N-XmI" firstAttribute="centerX" secondItem="tIB-fN-j1d" secondAttribute="centerX" id="8FB-CB-mHy"/>
+                            <constraint firstItem="hb0-1N-XmI" firstAttribute="centerY" secondItem="tIB-fN-j1d" secondAttribute="centerY" id="IFW-2K-wju"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pam-p9-CYN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="313" y="408"/>
+        </scene>
+    </scenes>
+</document>
